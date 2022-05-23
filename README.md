@@ -2,7 +2,7 @@
 
 ## Vergleichsoperatoren
 
-### `<` und `>`
+### `<` and `>`
 Die beiden Vergleichsoperatoren `<` und `>` können dazu verwendet werden um 2 Werte nach ihrer Grösse miteinandern zu vergleichen. Kann man z.B. dazu verwenden um alle Prüfungen auszugeben welche eine Note haben die über 5 liegt.
 ``` 
 SELECT * FROM exames WHERE grate > 5;
