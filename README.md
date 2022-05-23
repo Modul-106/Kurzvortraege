@@ -17,3 +17,8 @@ Kann dazu verwendet werden um 2 Werte daruf zu überpürfen ob sie **NICHT** gle
 ```
 SELECT * FROM exames WHERE grate != 5;
 ```
+### `=`
+Der Vergleichsoperator = oder besser gesagt soviel wie `Ist Gleich`. Er wird gebraucht um Obejekte auf deren Gleichheit zu üperfrüfen. Er kann z.B. dafür verwendet werden um alle Prüfungen mit der Note 5 zu bekommen.
+```
+SELECT * FROM exames WHERE grates = 5;
+```
